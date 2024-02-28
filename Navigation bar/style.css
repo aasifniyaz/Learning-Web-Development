@@ -1,0 +1,39 @@
+h4 {
+    background-color: red;
+    margin: -9px -9px;
+    padding: 7px;
+    text-align: center;
+    color: rgb(242, 242, 242);
+    font-weight: 300;
+    letter-spacing: .1rem;
+}
+
+.Navigation ul {
+    list-style: none;
+    background-color: rgb(65, 62, 62);
+    display: flex;
+    justify-content: center;
+    margin: 9px -9px;
+    padding: 51px 1px 51px;
+
+}
+
+nav ul li {
+    margin: 0 10px;
+    font-size: 14.5px;
+}
+
+nav ul li a {
+    color: aliceblue;
+    font-style: bold;
+    text-decoration-line: none;
+    font-size: larger;
+    padding: 10px 20px;
+
+}
+
+nav ul li a:hover {
+    color: rgb(247, 0, 0);
+    cursor: pointer;
+
+}
