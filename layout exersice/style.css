@@ -2,13 +2,13 @@ nav ul {
     border: 2px solid black;
     list-style: none;
     padding: 5px;
-    text-align: center;
     margin: -7px;
     background-color: rgb(183, 226, 62);
+    display: flex;
+    justify-content: center;
 }
 
 nav ul li {
-    display: inline;
     margin: 20px;
 }
 
@@ -47,6 +47,9 @@ body {
 .container {
     position: sticky;
     top: 0%;
+    display: flex;
+    flex-direction: column;
+    text-wrap: ;
 }
 
 img {
