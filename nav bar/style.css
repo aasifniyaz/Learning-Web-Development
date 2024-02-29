@@ -1,0 +1,61 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 210px 20px 140px;
+}
+
+.logo img {
+    height: 58px;
+}
+
+.menu a {
+    display: inline-flex;
+    justify-content: space-between;
+    margin-right: 41px;
+    flex-direction: column;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: rgb(89, 88, 88);
+}
+
+.menu a:hover {
+    cursor: pointer;
+    color: rgb(142, 139, 139);
+}
+
+.main a {
+    background-color: rgb(6, 117, 222);
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    padding: 13px 14px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.main a:hover {
+    color: #1e17ea;
+    cursor: pointer;
+}
+
+.main {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-left: 18rem;
+    margin-right: 18rem;
+}
+
+.main h1 {
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.para {
+    font-size: 25px;
+    font-weight: 100;
+}
