@@ -1,31 +1,41 @@
 .navbar {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 10px 210px 20px 140px;
+    justify-content: space-around;
+    font-family: "Segoe UI";
+    margin-top: 15px;
 }
 
 .logo img {
-    height: 58px;
+    width: 186px;
 }
 
-.menu a {
-    display: inline-flex;
-    justify-content: space-between;
-    margin-right: 41px;
-    flex-direction: column;
-    margin-bottom: 15px;
+.menu ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    font-family: "Segoe UI";
+}
+
+.menu ul li {
+    display: flex;
+    align-items: center;
+}
+
+.menu ul li a {
+    display: flex;
     text-decoration: none;
     color: rgb(89, 88, 88);
 }
 
-.menu a:hover {
+.menu ul li:hover {
     cursor: pointer;
     color: rgb(142, 139, 139);
+
 }
 
 .main a {
-    background-color: rgb(6, 117, 222);
+    background-color: rgb(31, 147, 255);
     font-weight: 600;
     color: rgb(255, 255, 255);
     padding: 13px 14px;
@@ -43,7 +53,7 @@
 .main {
     text-align: center;
     font-size: 50px;
-    margin-top: 30px;
+    margin-top: 95px;
     margin-left: 18rem;
     margin-right: 18rem;
 }
