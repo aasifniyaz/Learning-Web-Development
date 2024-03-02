@@ -4,7 +4,6 @@
     justify-content: space-around;
     font-family: "Segoe UI";
     margin-top: 15px;
-
 }
 
 .logo img {
@@ -47,16 +46,14 @@
 }
 
 .main a:hover {
-    color: #1e17ea;
+    background-color: #4d7cd4;
     cursor: pointer;
 }
 
 .main {
     text-align: center;
     font-size: 50px;
-    margin-top: 95px;
-    margin-left: 18rem;
-    margin-right: 18rem;
+    margin-top: 120px;
 }
 
 .main h1 {
@@ -144,7 +141,7 @@
 
 .box button1:hover {
     cursor: pointer;
-    color: rgb(12, 98, 185);
+    background-color: rgb(79, 152, 225);
 
 }
 
@@ -162,6 +159,78 @@
 
 .box button2:hover {
     cursor: pointer;
-    color: rgb(12, 98, 185);
+    background-color: rgba(93, 215, 63, 0.682);
+
+}
+
+.heading {
+    font-weight: bold;
+    color: #1e17ea;
+}
+
+@media screen and (max-width:550px) {
+    .navbar {
+        display: block;
+        margin: 20px 0;
+    }
+
+    .menu ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .menu ul li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    .menu ul li a {
+        text-decoration: none;
+        color: #333;
+    }
+
+    .main h1 {
+        font-size: 20px;
+        padding: 0%;
+    }
+
+    .main .para {
+        font-size: 14px;
+        padding: 0%;
+    }
+
+    .main {
+        display: block;
+        padding: 0px;
+        justify-content: start;
+        text-align: left;
+
+    }
+
+    .main {
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    .main h1 {
+        font-size: 20px;
+        padding: 0px;
+    }
+
+    .main .para {
+        font-size: 14px;
+    }
+
+    .main a {
+        text-align: center;
+        justify-content: center;
+        font-size: 8px;
+    }
+
+    .main h1 img {
+        height: 15px;
+    }
+
+
 
 }
