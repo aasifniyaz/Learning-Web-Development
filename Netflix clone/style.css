@@ -1,0 +1,516 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.pcontainer {
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: linear-gradient(12deg, rgba(0, 0, 0, 0.8500) 36.00%, rgba(0, 0, 0, 0.8465) 40.58%, rgba(0, 0, 0, 0.8361) 45.17%, #000000d1 49.75%, rgba(0, 0, 0, 0.7944) 54.33%, rgba(0, 0, 0, 0.7632) 58.92%, rgba(0, 0, 0, 0.7250) 63.50%, rgba(0, 0, 0, 0.6868) 68.08%, rgba(0, 0, 0, 0.6556) 72.67%, rgba(0, 0, 0, 0.6313) 77.25%, rgba(0, 0, 0, 0.6139) 81.83%, rgba(0, 0, 0, 0.6035) 86.42%, rgba(0, 0, 0, 0.6000) 91.00%), url("background image.jpg");
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+
+.nav .textlogo {
+    width: 190px;
+}
+
+.nav .langsign {
+    width: 18px;
+    filter: invert(1);
+}
+
+.nav .arrow {
+    width: 12px;
+    padding-left: 6px;
+    filter: invert(1);
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+}
+
+.buttons :first-child {
+    display: flex;
+    font-size: 17px;
+    padding: 3px 8px;
+    justify-items: center;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 8px;
+    padding-right: 8px;
+    border: none;
+    border-radius: 4px;
+    background: transparent;
+    color: #ffffff;
+    border: 1px solid white;
+
+}
+
+.lastbutton {
+    background-color: #e50914;
+    padding: 3px 18px;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-weight: bold;
+
+}
+
+.lastbutton:hover {
+    cursor: pointer;
+    background-color: #d6000b;
+}
+
+.main {
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    width: 50%;
+    margin-top: 120px;
+
+}
+
+.main h1 {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.main h3 {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.para {
+    color: #ffffff;
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+.last {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    margin-top: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.last input {
+    padding: 22px 105px;
+    background: repeating-radial-gradient(black, transparent 100px);
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.last button {
+    border: none;
+    border-radius: 5px;
+    background-color: #e50914;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 14px 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.last button img {
+    filter: invert(1);
+}
+
+.last button:hover {
+    background-color: #c40d16;
+    cursor: pointer;
+}
+
+.last input:hover {
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+.heading1 {
+    text-align: start;
+    font-size: 27px;
+    display: flex;
+    margin-top: 70px;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-weight: 600;
+    align-items: start;
+    width: 80%;
+}
+
+.boxes {
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.box {
+    background: linear-gradient(183deg, #772641 0%, #210e17 96.86%);
+    width: 290px;
+    height: 230px;
+    text-align: left;
+    color: #ffffff;
+    border-radius: 13px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.box h1 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 22px;
+    margin-top: 30px;
+}
+
+.box h4 {
+    opacity: 70%;
+    font-weight: 400;
+    margin-left: 22px;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.box p {
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 21px;
+    margin-top: 32px;
+}
+
+#month {
+    margin-top: 9px;
+}
+
+.box:hover {
+    background: #744151;
+}
+
+.heading2 {
+    text-align: start;
+    font-size: 27px;
+    display: flex;
+    margin-top: 70px;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-weight: 600;
+    align-items: start;
+    width: 80%;
+}
+
+.cards {
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.card {
+    background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+    width: 290px;
+    height: 290px;
+    text-align: left;
+    color: #ffffff;
+    border-radius: 13px;
+    margin-left: 20px;
+}
+
+.card h2 {
+    margin-left: 15px;
+    margin-top: 25px;
+    font-weight: 600;
+}
+
+.card p {
+    margin-left: 15px;
+    margin-top: 18px;
+    opacity: 83%;
+    font-size: 14px;
+}
+
+.card img {
+    display: flex;
+    text-align: right;
+}
+
+.cards .logo {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 12px;
+    margin-top: 70px;
+}
+
+.heading3 {
+    text-align: start;
+    font-size: 27px;
+    display: flex;
+    margin-top: 70px;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-weight: 600;
+    align-items: start;
+    width: 80%;
+}
+
+.question-buttons {
+    display: flex;
+    margin-top: 20px;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    width: 80%;
+    flex-direction: column;
+}
+
+.question {
+    display: flex;
+    font-size: 27px;
+    width: 80%;
+    margin: 4px;
+    padding: 26px;
+    font-weight: 300;
+    background-color: #2d2d2d;
+    color: #ffffff;
+    border: none;
+    justify-content: space-between;
+}
+
+.question img {
+    filter: invert(1);
+}
+
+.question:hover {
+    background-color: #4c4b4b
+}
+
+.lastheading {
+    text-align: start;
+    font-size: 17px;
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-weight: 400;
+    align-items: start;
+    width: 80%;
+}
+
+.second-email {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 6px;
+    gap: 6px;
+}
+
+.second-email input {
+    padding: 22px 300px;
+    background-color: #5853535c;
+    border-radius: 5px;
+    text-align: left;
+    border: none;
+}
+
+.second-email button {
+    border: none;
+    border-radius: 5px;
+    background-color: #e50914;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 14px 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-email button img {
+    filter: invert(1);
+}
+
+.lists {
+    text-decoration: none;
+    border: 2px solid wheat;
+    display: flex;
+    flex-direction: row;
+}
+
+.lists ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .nav {
+        justify-content: space-around;
+        display: flex;
+        gap: 100px;
+    }
+
+    #nav-text {
+        display: none;
+    }
+
+    .nav .textlogo {
+        width: 100px;
+    }
+
+    .buttons {
+        height: 27px;
+    }
+
+    .lastbutton {
+        text-wrap: nowrap;
+    }
+
+    .main {
+        width: 80%;
+        margin-top: 60px;
+    }
+
+    .main h1 {
+        font-size: 28px;
+    }
+
+    .main h3 {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .para {
+        font-size: 15px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .last {
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 40px;
+        align-items: center;
+    }
+
+    .last input {
+        padding: 10px 80px;
+    }
+
+    .last button {
+        padding: 6px 4px;
+        font-size: 17px;
+        width: 100px;
+    }
+
+    .boxes {
+        flex-direction: column;
+    }
+
+    .box {
+        margin-top: 10px;
+        width: 90%;
+        margin-right: 20px;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .card {
+        margin-top: 10px;
+        width: 90%;
+        margin-right: 20px;
+    }
+
+    .heading3 {
+        font-size: 20px;
+    }
+
+    .question {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .second-email {
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .second-email input {
+        padding: 15px 87px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .second-email button {
+        width: 50%;
+        padding: 11px;
+        font-size: 20px;
+    }
+}
