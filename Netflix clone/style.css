@@ -27,6 +27,7 @@ body {
     flex-direction: column;
     align-items: center;
     font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+
 }
 
 .nav .textlogo {
@@ -363,50 +364,85 @@ body {
     filter: invert(1);
 }
 
-.lists {
-    text-decoration: none;
-    border: 2px solid wheat;
+.footer {
+    width: 100%;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
-.lists ul {
+.footerheading {
+    font-size: 15px;
     display: flex;
-    list-style: none;
-    width: 100%;
-    justify-content: center;
+    margin-top: 50px;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-weight: 400;
+    align-items: start;
+    width: 75%;
+    opacity: 50%;
+    margin-bottom: 15px;
+}
+
+.lists {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 70%;
+    height: 22vh;
+    margin-right: 84px;
+}
+
+.lists a {
+    color: #ffffff;
+    opacity: 60%;
+    padding: 7px;
+}
+
+
+.englishbutton .arrow {
+    width: 12px;
+    padding-left: 6px;
+    filter: invert(1);
+}
+
+.englishbutton .langsign {
+    filter: invert(1);
+    margin: 2px 7px 4px 1px;
+}
+
+.englishbutton {
+    display: flex;
+    align-items: center;
+    width: 80%;
     align-items: center;
 }
 
+.headache {
+    display: flex;
+    font-size: 17px;
+    padding: 3px 8px;
+    justify-items: center;
+    align-items: center;
+    flex-direction: row;
+    padding-right: 8px;
+    border-radius: 4px;
+    background: #242222d1;
+    color: #ffffff;
+    border: 1px solid white;
+    opacity: 60%;
+    margin-left: 38px;
+    margin-top: 40px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.end {
+    opacity: 60%;
+    display: flex;
+    justify-content: flex-start;
+    width: 75%;
+    margin-top: 20px;
+}
 
 @media screen and (max-width: 600px) {
     .nav {
@@ -415,7 +451,7 @@ body {
         gap: 100px;
     }
 
-    #nav-text {
+    .buttons #nav-text {
         display: none;
     }
 
@@ -433,16 +469,16 @@ body {
 
     .main {
         width: 80%;
-        margin-top: 60px;
+        margin-top: 70px;
     }
 
     .main h1 {
-        font-size: 28px;
+        font-size: 30px;
     }
 
     .main h3 {
         font-size: 16px;
-        margin-top: 20px;
+        margin-top: 30px;
     }
 
     .para {
@@ -464,8 +500,12 @@ body {
 
     .last button {
         padding: 6px 4px;
-        font-size: 17px;
+        font-size: 13px;
         width: 100px;
+    }
+
+    .last button img {
+        width: 12px;
     }
 
     .boxes {
@@ -492,9 +532,16 @@ body {
         font-size: 20px;
     }
 
+    .question img {
+        width: 25px;
+    }
+
     .question {
         width: 100%;
-        font-size: 14px;
+        font-size: 15px;
+        text-align: center;
+        align-items: center;
+        font-weight: 500;
     }
 
     .second-email {
@@ -512,5 +559,29 @@ body {
         width: 50%;
         padding: 11px;
         font-size: 20px;
+    }
+
+    .lists {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        font-size: 14px;
+        margin-right: 20px;
+        margin-top: 15px;
+        height: fit-content;
+    }
+
+    .englishbutton {
+        margin-right: 50px;
+        opacity: 95%;
+        margin-bottom: 12px;
+    }
+
+    .end {
+        margin-bottom: 1200px;
+        margin-left: 11px;
+    }
+
+    .footerheading {
+        opacity: 80%;
     }
 }
