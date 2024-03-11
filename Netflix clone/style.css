@@ -360,6 +360,11 @@ body {
     align-items: center;
 }
 
+.second-email button:hover {
+    cursor: pointer;
+    background-color: #ce040e;
+}
+
 .second-email button img {
     filter: invert(1);
 }
@@ -435,7 +440,9 @@ body {
     margin-left: 38px;
     margin-top: 40px;
 }
-
+.headache:hover{
+    border: 3px double antiquewhite;
+}
 .end {
     opacity: 60%;
     display: flex;
