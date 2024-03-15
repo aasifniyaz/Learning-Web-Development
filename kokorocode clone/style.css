@@ -1,0 +1,315 @@
+.pcontainer {
+    width: 100%;
+}
+
+.navbar img {
+    width: 115px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    opacity: 85%;
+    font-weight: 100;
+}
+
+#greybutton {
+    color: antiquewhite;
+    background-color: black;
+    padding: 8px 18px;
+    border-radius: 20px;
+}
+
+#EN {
+    background-color: #e6e1e1;
+    border-radius: 10px;
+    padding: 5px 7px;
+}
+
+.navtext {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.container {
+    background-color: #f4f4f4;
+    display: flex;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-family: sans-serif;
+}
+
+.words {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 110px;
+}
+
+.words h1 {
+    font-size: 48px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.words h2 {
+    font-weight: 100;
+    opacity: 95%;
+}
+
+.learnmore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.learnmore img {
+    border: 2px solid black;
+    padding: 8px 8px;
+    border-radius: 33px;
+    /* filter: invert(1); */
+}
+
+.learnmore button {
+    text-decoration: none;
+    border: none;
+    background: none;
+    font-size: 20px;
+    font-weight: lighter;
+    opacity: 90%;
+    text-transform: uppercase;
+}
+
+.imagecontainer {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin-bottom: 5rem;
+}
+
+.mainimage {
+    width: 60%;
+    margin-top: 5rem;
+}
+
+.color {
+    width: 42%;
+    position: absolute;
+    margin-top: 8rem;
+    left: 25rem;
+}
+
+.textimage {
+    width: 29%;
+    position: absolute;
+    margin-top: 9rem;
+    margin-right: 24rem;
+}
+
+.mobileimage {
+    width: 19%;
+    height: 81%;
+    position: absolute;
+    margin-left: 601px;
+    margin-top: 115px;
+}
+
+
+.codeimage {
+    width: 24%;
+    position: absolute;
+    top: 76%;
+    left: 21rem;
+    opacity: 55%;
+}
+
+.codingimage {
+    width: 10%;
+    height: 28%;
+    position: absolute;
+    top: 18rem;
+    left: 22rem;
+}
+
+.arrowimage {
+    width: 5%;
+    position: absolute;
+    margin-top: 9rem;
+    margin-left: 13rem;
+}
+
+.codingsignimage {
+    position: absolute;
+    width: 9%;
+    top: 24rem;
+    left: 51rem;
+}
+
+.container2 {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 52px;
+}
+
+.circleimage {
+    width: 40%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    aspect-ratio: 1;
+}
+
+.circlewords {
+    display: flex;
+    flex-direction: column;
+    font-family: Raleway, sans-serif;
+}
+
+.circlewords h1 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.circlewords p {
+    margin-top: 0px;
+    font-size: 25px;
+    opacity: 80%;
+}
+
+.circlewords p span {
+    color: green;
+}
+
+.readmore {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.readmore img {
+    border: 2px solid black;
+    padding: 8px 8px;
+    border-radius: 33px;
+}
+
+.readmore button {
+    text-decoration: none;
+    border: none;
+    background: none;
+    font-size: 20px;
+    font-weight: lighter;
+    opacity: 90%;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1000px) {
+    .pcontainer {}
+
+    .navbar {
+        width: 100%;
+        justify-content: space-between;
+        display: flex;
+        gap: 25px;
+    }
+
+    .navtext {
+        font-size: 8px;
+        gap: 8px;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .words {
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    .words h1 {
+        font-size: 37px;
+        font-weight: bold;
+    }
+
+    .imagecontainer {
+        width: 150%;
+    }
+
+    .color {
+        top: -2rem;
+        left: 10rem;
+    }
+
+    .textimage {
+        bottom: 136px;
+        left: 129px;
+    }
+
+    .mobileimage {
+        right: 115px;
+        height: 185px;
+        bottom: 8px;
+    }
+
+    .codeimage {
+        left: 128px;
+        top: 226px
+    }
+
+    .codingimage {
+        top: 145px;
+        left: 135px;
+    }
+
+    .codingsignimage {
+        left: 53%;
+        top: 65%;
+    }
+
+    .arrowimage {
+        left: 84px;
+        bottom: 154px;
+    }
+}
